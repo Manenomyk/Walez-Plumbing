@@ -1,0 +1,34 @@
+.sect1{
+    display: flex;
+    width: 100vw;
+}
+
+.nam1{
+    height: 40px;
+    width: 50vw;
+    background-color: black;
+}
+.nam2{
+    height: 40px;
+    width: 50vw;
+    background-color: #F58020;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+}
+.topcontact{
+    font-size: 19px;
+}
+.topsec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.topnumber{
+    color: white;
+    font-size: 18px;
+    /* font-size: large; */
+    font-weight: bold;
+}
