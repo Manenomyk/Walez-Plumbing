@@ -26,26 +26,27 @@ function Home() {
             <hom.Image 
             src={logo}
             alt='logo'
-            className='img d-block w-100'
+            className=' img d-block w-100'
             fluid
             />
             </div>
             <ul>
                 <li><a href="#learnmore"> Learn more <i className="fas fa-caret-right"></i></a></li>
-                <li><a href="/login ">Customer <i className="fas fa-caret-right"></i></a></li>
-                <li><a href="/techlogin">Technician <i className="fas fa-caret-right"></i></a></li>
-                <li><a href="#0794636596"><i className="fas fa-phone-alt"></i> 0794636596</a></li>
+                {/* <li><a href="/login ">Customer <i className="fas fa-caret-right"></i></a></li> */}
+                <li><a href="/Technicians">Technician <i className="fas fa-caret-right"></i></a></li>
+                <li><a href="#0794636596"><i className="fas fa-phone-alt"></i> 1234567890</a></li>
             </ul>
         </nav>
         </div>
     </header>
     <div className='homeimage'>
-      <hom.Image 
-      src='plum'
-      alt='home picture'
-      className='d-block w-100'
-      fluid
-      />
+      <div className='overlay'>
+        <h2>In need of quality plumbing solutions?</h2>
+        <p>Search no more, we've got you covered</p>
+        <div className='btnbody'>
+        <div className='buton'>Contact us</div>
+        </div>
+      </div>
     </div>
     </div>
   )

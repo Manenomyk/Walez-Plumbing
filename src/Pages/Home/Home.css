@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,900;1,400;1,700;1,900&family=Luckiest+Guy&family=Poppins:ital,wght@0,600;0,700;0,900;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
 .sect1{
     display: flex;
     width: 100vw;
@@ -42,7 +51,7 @@
     /* margin: 5px 0; */
 
 }
-.logo img{
+.logo{
     height: 150px; 
     width: 150px; 
     object-fit: cover;
@@ -65,7 +74,44 @@
 }
 
 
-.homeimage{
-    width: 100vw;
-    height: 60vh;
+.homeimage {
+    height: 73vh; 
+    width: 100vw; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(/src/Assets/Plum.jpg);
+}
+
+.overlay h2{
+    color: #fff;
+    font-size: 35px;
+    text-align: center;
+    font-weight: 500;
+}
+.overlay p{
+    color: #F58020;
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+.buton{
+    background-color: #F58020;
+    color: white;
+    padding: 8px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+}
+.btnbody{
+    display: flex;
+    justify-content: center;
+    
 }
