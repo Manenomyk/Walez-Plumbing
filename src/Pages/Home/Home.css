@@ -32,3 +32,40 @@
     /* font-size: large; */
     font-weight: bold;
 }
+
+
+
+#nav nav{
+    
+    display: flex;
+    justify-content: space-around;
+    /* margin: 5px 0; */
+
+}
+.logo img{
+    height: 150px; 
+    width: 150px; 
+    object-fit: cover;
+}
+ #nav nav ul{
+    display: block;
+    list-style: none;
+}
+#nav  nav ul li{
+    display: inline;
+    margin-left: 20px;
+    
+}
+ #nav nav ul li a{
+    text-decoration: none;
+    color: #000;
+    line-height: 90px;
+    font-size: 15px;
+    
+}
+
+
+.homeimage{
+    width: 100vw;
+    height: 60vh;
+}
