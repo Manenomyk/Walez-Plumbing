@@ -4,10 +4,10 @@ import * as hom from "react-bootstrap";
 import logo from "../../Assets/logo.jpg";
 import log from "../../Assets/log.png";
 import plum from "../../Assets/plum.webp";
-import repair from '../../Assets/repair.png';
+import repair from "../../Assets/repair.png";
 import sew from "../../Assets/sewage.jpg";
-import solar from '../../Assets/solar.jpg';
-import unblock from '../../Assets/unblock.jpg';
+import solar from "../../Assets/solar.jpg";
+import unblock from "../../Assets/unblock.jpg";
 import * as rev from "react-reveal";
 
 function Home() {
@@ -82,77 +82,69 @@ function Home() {
           <hom.Container className="mx-auto">
             <hom.Row className="mx-auto">
               <hom.Col lg={2} sm={10} xs={8} className="mx-auto mb-4">
-              <div className="service">
-              <img src={plum} alt="#/" />
-              <h3>plumbing work</h3>
-            </div>
+                <div className="service">
+                  <img src={plum} alt="#/" />
+                  <h3>plumbing work</h3>
+                </div>
               </hom.Col>
               <hom.Col lg={2} sm={10} xs={8} className="mx-auto mb-4">
-              <div className="service">
-              <img src={unblock} alt="#/" />
-              <h3>Unblocking</h3>
-            </div>
+                <div className="service">
+                  <img src={unblock} alt="#/" />
+                  <h3>Unblocking</h3>
+                </div>
               </hom.Col>
               <hom.Col lg={2} sm={10} xs={8} className="mx-auto mb-4">
-              <div className="service">
-              <img src={solar} alt="#/" />
-              <h3>solar installation</h3>
-            </div>
+                <div className="service">
+                  <img src={solar} alt="#/" />
+                  <h3>solar installation</h3>
+                </div>
               </hom.Col>
               <hom.Col lg={2} sm={10} xs={8} className="mx-auto mb-4">
-              <div className="service">
-              <img src={sew} alt="#/" />
-              <h3>waste&storm water</h3>
-            </div>
+                <div className="service">
+                  <img src={sew} alt="#/" />
+                  <h3>waste&storm water</h3>
+                </div>
               </hom.Col>
               <hom.Col lg={2} sm={10} xs={8} className="mx-auto mb-4">
-              <div className="service">
-              <img src={repair} alt="#/" />
-              <h3>Repairs & Renovation</h3>
-            </div>
+                <div className="service">
+                  <img src={repair} alt="#/" />
+                  <h3>Repairs & Renovation</h3>
+                </div>
               </hom.Col>
             </hom.Row>
           </hom.Container>
-          <div className="service-icons">
-            
-            
-            
-            
-           
-          </div>
+          <div className="service-icons"></div>
         </div>
-        <div className="ad-container">
-          <div className="ad">
-            <div className="image">
-              <img
-                src="/Assets/images/Woman-Cleaning-Refrigerator-At.png"
-                alt="#"
-              />
-            </div>
-            <div className="ad-details">
-              <h3>Advert 1</h3>
-            </div>
-          </div>
-          <div className="ad">
-            <div className="image">
-              <img
-                src="/Assets/images/Copy of barman-front-fridge.jpg"
-                alt="#"
-              />
-            </div>
-            <div className="ad-details">
-              <h3>Advert 2</h3>
-            </div>
-          </div>
-          <div className="ad">
-            <div className="image">
-              <img src="/Assets/images/itemslinedonwood.jpg" alt="" />
-            </div>
-            <div className="ad-details">
-              <h3>Advert 3</h3>
-            </div>
-          </div>
-        </div>
+
+        <hom.Container className="courel">
+        <div id="carouselExampleIndicators" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="..." class="d-block w-100" alt="loo" />
+    </div>
+    <div class="carousel-item">
+      <img src="..." class="d-block w-100" alt="luuu" />
+    </div>
+    <div class="carousel-item">
+      <img src="..." class="d-block w-100" alt="lee" />
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+        </hom.Container>
+
       </div>
 
       <div className="contact">
