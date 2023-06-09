@@ -81,31 +81,31 @@ function Home() {
 
           <hom.Container className="mx-auto">
             <hom.Row className="mx-auto">
-              <hom.Col lg={4} sm={10} xs={8} className="mx-auto mb-4">
+              <hom.Col lg={4} sm={10} xs={12} className="mx-auto mb-4">
                 <div className="service">
                   <img src={plum} alt="#/" />
                   <h3>plumbing work</h3>
                 </div>
               </hom.Col>
-              <hom.Col lg={4} sm={10} xs={8} className="mx-auto mb-4">
+              <hom.Col lg={4} sm={10} xs={12} className="mx-auto mb-4">
                 <div className="service">
                   <img src={unblock} alt="#/" />
                   <h3>Unblocking</h3>
                 </div>
               </hom.Col>
-              <hom.Col lg={4} sm={10} xs={8} className="mx-auto mb-4">
+              <hom.Col lg={4} sm={10} xs={12} className="mx-auto mb-4">
                 <div className="service">
                   <img src={solar} alt="#/" />
                   <h3>solar installation</h3>
                 </div>
               </hom.Col>
-              <hom.Col lg={4} sm={10} xs={8} className="mx-auto mb-4">
+              <hom.Col lg={4} sm={10} xs={12} className="mx-auto mb-4">
                 <div className="service">
                   <img src={sew} alt="#/" />
                   <h3>waste&storm water</h3>
                 </div>
               </hom.Col>
-              <hom.Col lg={4} sm={10} xs={8} className="mx-auto mb-4">
+              <hom.Col lg={4} sm={10} xs={12} className="mx-auto mb-4">
                 <div className="service">
                   <img src={repair} alt="#/" />
                   <h3>Repairs & Renovation</h3>
