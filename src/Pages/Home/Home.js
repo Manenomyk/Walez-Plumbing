@@ -3,7 +3,11 @@ import "./Home.css";
 import * as hom from "react-bootstrap";
 import logo from "../../Assets/logo.jpg";
 import log from "../../Assets/log.png";
-import plum from "../../Assets/plumb.jpg";
+import plum from "../../Assets/plum.webp";
+import repair from '../../Assets/repair.png';
+import sew from "../../Assets/sewage.jpg";
+import solar from '../../Assets/solar.jpg';
+import unblock from '../../Assets/unblock.jpg';
 import * as rev from "react-reveal";
 
 function Home() {
@@ -79,31 +83,31 @@ function Home() {
             <hom.Row className="mx-auto">
               <hom.Col lg={2} sm={10} xs={8} className="mx-auto mb-4">
               <div className="service">
-              <img src="/Assets/images/smartphone.png" alt="#/" />
+              <img src={plum} alt="#/" />
               <h3>plumbing work</h3>
             </div>
               </hom.Col>
               <hom.Col lg={2} sm={10} xs={8} className="mx-auto mb-4">
               <div className="service">
-              <img src="/Assets/images/monitor.png" alt="#/" />
+              <img src={unblock} alt="#/" />
               <h3>Unblocking</h3>
             </div>
               </hom.Col>
               <hom.Col lg={2} sm={10} xs={8} className="mx-auto mb-4">
               <div className="service">
-              <img src="/Assets/images/fridge.png" alt="#/" />
+              <img src={solar} alt="#/" />
               <h3>solar installation</h3>
             </div>
               </hom.Col>
               <hom.Col lg={2} sm={10} xs={8} className="mx-auto mb-4">
               <div className="service">
-              <img src="/Assets/images/microwave.png" alt="#/" />
+              <img src={sew} alt="#/" />
               <h3>waste&storm water</h3>
             </div>
               </hom.Col>
               <hom.Col lg={2} sm={10} xs={8} className="mx-auto mb-4">
               <div className="service">
-              <img src="/Assets/images/blender.png" alt="#/" />
+              <img src={repair} alt="#/" />
               <h3>Repairs & Renovation</h3>
             </div>
               </hom.Col>
