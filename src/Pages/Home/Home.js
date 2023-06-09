@@ -4,10 +4,10 @@ import * as hom from "react-bootstrap";
 import logo from "../../Assets/logo.jpg";
 import log from "../../Assets/log.png";
 import plum from "../../Assets/plum.webp";
-import repair from "../../Assets/repair.png";
+import repair from "../../Assets/repair.webp";
 import sew from "../../Assets/sewage.jpg";
-import solar from "../../Assets/solar.jpg";
-import unblock from "../../Assets/unblock.jpg";
+import solar from "../../Assets/solar.webp";
+import unblock from "../../Assets/toi.png";
 import * as rev from "react-reveal";
 
 function Home() {
@@ -71,7 +71,7 @@ function Home() {
       <div className="serv">
         <div className="services" id="learnmore">
           <h2>Services we Offer</h2>
-          <p>Repair</p>
+          <p>We pride ourselves in delivering quality services with efficiency</p>
           <div
             style={{
               paddingBottom: "30px",
@@ -81,31 +81,31 @@ function Home() {
 
           <hom.Container className="mx-auto">
             <hom.Row className="mx-auto">
-              <hom.Col lg={2} sm={10} xs={8} className="mx-auto mb-4">
+              <hom.Col lg={4} sm={10} xs={8} className="mx-auto mb-4">
                 <div className="service">
                   <img src={plum} alt="#/" />
                   <h3>plumbing work</h3>
                 </div>
               </hom.Col>
-              <hom.Col lg={2} sm={10} xs={8} className="mx-auto mb-4">
+              <hom.Col lg={4} sm={10} xs={8} className="mx-auto mb-4">
                 <div className="service">
                   <img src={unblock} alt="#/" />
                   <h3>Unblocking</h3>
                 </div>
               </hom.Col>
-              <hom.Col lg={2} sm={10} xs={8} className="mx-auto mb-4">
+              <hom.Col lg={4} sm={10} xs={8} className="mx-auto mb-4">
                 <div className="service">
                   <img src={solar} alt="#/" />
                   <h3>solar installation</h3>
                 </div>
               </hom.Col>
-              <hom.Col lg={2} sm={10} xs={8} className="mx-auto mb-4">
+              <hom.Col lg={4} sm={10} xs={8} className="mx-auto mb-4">
                 <div className="service">
                   <img src={sew} alt="#/" />
                   <h3>waste&storm water</h3>
                 </div>
               </hom.Col>
-              <hom.Col lg={2} sm={10} xs={8} className="mx-auto mb-4">
+              <hom.Col lg={4} sm={10} xs={8} className="mx-auto mb-4">
                 <div className="service">
                   <img src={repair} alt="#/" />
                   <h3>Repairs & Renovation</h3>
@@ -116,34 +116,9 @@ function Home() {
           <div className="service-icons"></div>
         </div>
 
-        <hom.Container className="courel">
-        <div id="carouselExampleIndicators" class="carousel slide">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="..." class="d-block w-100" alt="loo" />
-    </div>
-    <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="luuu" />
-    </div>
-    <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="lee" />
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-        </hom.Container>
+        {/* <hom.Container className="courel">
+
+        </hom.Container> */}
 
       </div>
 
