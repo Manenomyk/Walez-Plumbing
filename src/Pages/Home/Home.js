@@ -68,14 +68,16 @@ function Home() {
             <h2>In need of quality plumbing solutions?</h2>
             <p>Search no more, we've got you covered</p>
             <div className="btnbody">
+              <a href="#contact">
               <div className="buton">Contact us</div>
+              </a>
             </div>
           </div>
         </rev.Zoom>
       </div>
 
       <div className="about">
-        <a id="about"></a>
+        
         <hom.Container className="aboutcont">
           <hom.Row>
             <hom.Col lg={6} className="mx-auto mb-5">
@@ -187,6 +189,7 @@ function Home() {
             }}
           ></div>
           <div className="whysection">
+          <a id="about"></a>
             <hom.Container className="whyus">
               <hom.Row>
                 <hom.Col lg={3} className="mx-auto mb-3">
