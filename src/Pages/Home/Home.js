@@ -8,7 +8,7 @@ import repair from "../../Assets/repair.webp";
 import sew from "../../Assets/sewage.jpg";
 import solar from "../../Assets/solar.webp";
 import unblock from "../../Assets/toi.png";
-import pro from '../../Assets/pro.jpg';
+import pro from "../../Assets/pro.jpg";
 import * as rev from "react-reveal";
 
 function Home() {
@@ -72,15 +72,32 @@ function Home() {
       <div className="about">
         <hom.Container className="aboutcont">
           <hom.Row>
-            <hom.Col lg={6} className="mx-auto">
-              <h3 className="aout">Quality and Expertise at your Dispposal</h3>
+            <hom.Col lg={6} className="mx-auto mb-5">
+              <h3 className="abouthead">
+                Quality and Expertise at your Dispposal
+              </h3>
+              <p>
+                We are a reknown blumbing company that prides itself <br/>
+                 in not only the quality we deliver but also in the expertises  <br />
+                 in service delivery.
+
+              </p>
+              <p className="mb-4">
+                Our quest as a company is for satisfaction to our clients through<br/>
+                 efficiency and quality srvice delivery. With out team of well trained <br />
+                 experts, our clients can rest be assured of nothing but the best.
+
+              </p>
+              <div className="btn btn-primary">
+                Reach Out
+              </div>
             </hom.Col>
-            <hom.Col lg={5} className="mx-auto">
+            <hom.Col lg={5} className="mx-auto mb-5">
               <hom.Image
-              src={pro}
-              alt="image"
-              className="d-block w-100"
-              fluid
+                src={pro}
+                alt="image"
+                className="d-block w-100"
+                fluid
               />
             </hom.Col>
           </hom.Row>
