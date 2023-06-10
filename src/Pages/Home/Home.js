@@ -21,7 +21,10 @@ function Home() {
           <hom.Container>
             <div className="topsec">
               <div className="topcontact">Give us a call?</div>
-              <div className="topnumber"> <BsTelephoneFill /> 0714582808</div>
+              <div className="topnumber">
+                {" "}
+                <BsTelephoneFill /> 0714582808
+              </div>
             </div>
           </hom.Container>
         </div>
@@ -31,12 +34,12 @@ function Home() {
           <nav className="navigation">
             <div className="logo">
               <rev.Zoom delay={1000}>
-              <hom.Image
-                src={logo}
-                alt="logo"
-                className=" img d-block w-100"
-                fluid
-              />
+                <hom.Image
+                  src={logo}
+                  alt="logo"
+                  className=" img d-block w-100"
+                  fluid
+                />
               </rev.Zoom>
             </div>
             <ul>
@@ -53,22 +56,22 @@ function Home() {
                 </a>
               </li>
               <li>
-                <a href="#contact">
-                   Contact
-                </a>
+                <a href="#contact">Contact</a>
               </li>
             </ul>
           </nav>
         </div>
       </header>
       <div className="homeimage">
-        <div className="overlay">
-          <h2>In need of quality plumbing solutions?</h2>
-          <p>Search no more, we've got you covered</p>
-          <div className="btnbody">
-            <div className="buton">Contact us</div>
+        <rev.Zoom delay={1000}>
+          <div className="overlay">
+            <h2>In need of quality plumbing solutions?</h2>
+            <p>Search no more, we've got you covered</p>
+            <div className="btnbody">
+              <div className="buton">Contact us</div>
+            </div>
           </div>
-        </div>
+        </rev.Zoom>
       </div>
 
       <div className="about">
@@ -80,7 +83,7 @@ function Home() {
                 Quality and Expertise at your Dispposal
               </h3>
               <p>
-                We are a reknown blumbing company that prides itself <br />
+                We are a reknown plumbing company that prides itself <br />
                 in not only the quality we deliver but also in the expertises{" "}
                 <br />
                 in service delivery.
@@ -97,12 +100,14 @@ function Home() {
               <div className="btn btn-primary">Reach Out</div>
             </hom.Col>
             <hom.Col lg={5} className="mx-auto mb-5">
-              <hom.Image
-                src={pro}
-                alt="image"
-                className="d-block w-100"
-                fluid
-              />
+              <rev.Zoom delay={1000}>
+                <hom.Image
+                  src={pro}
+                  alt="image"
+                  className="d-block w-100"
+                  fluid
+                />
+              </rev.Zoom>
             </hom.Col>
           </hom.Row>
         </hom.Container>
@@ -125,34 +130,45 @@ function Home() {
           <hom.Container className="mx-auto">
             <hom.Row className="mx-auto">
               <hom.Col lg={4} sm={10} xs={12} className="mx-auto mb-4">
-                <div className="service">
-                  <img src={plum} alt="#/" />
-                  <h3>plumbing work</h3>
-                </div>
+                <rev.Zoom delay={1000}>
+                  <div className="service">
+                    <img src={plum} alt="#/" />
+                    <h3>plumbing work</h3>
+                  </div>
+                </rev.Zoom>
+              </hom.Col>
+
+              <hom.Col lg={4} sm={10} xs={12} className="mx-auto mb-4">
+                <rev.Zoom delay={1000}>
+                  <div className="service">
+                    <img src={unblock} alt="#/" />
+                    <h3>Unblocking</h3>
+                  </div>
+                </rev.Zoom>
               </hom.Col>
               <hom.Col lg={4} sm={10} xs={12} className="mx-auto mb-4">
-                <div className="service">
-                  <img src={unblock} alt="#/" />
-                  <h3>Unblocking</h3>
-                </div>
+                <rev.Zoom delay={1000}>
+                  <div className="service">
+                    <img src={solar} alt="#/" />
+                    <h3>solar installation</h3>
+                  </div>
+                </rev.Zoom>
               </hom.Col>
               <hom.Col lg={4} sm={10} xs={12} className="mx-auto mb-4">
-                <div className="service">
-                  <img src={solar} alt="#/" />
-                  <h3>solar installation</h3>
-                </div>
+                <rev.Zoom delay={1000}>
+                  <div className="service">
+                    <img src={sew} alt="#/" />
+                    <h3>waste&storm water</h3>
+                  </div>
+                </rev.Zoom>
               </hom.Col>
               <hom.Col lg={4} sm={10} xs={12} className="mx-auto mb-4">
-                <div className="service">
-                  <img src={sew} alt="#/" />
-                  <h3>waste&storm water</h3>
-                </div>
-              </hom.Col>
-              <hom.Col lg={4} sm={10} xs={12} className="mx-auto mb-4">
-                <div className="service">
-                  <img src={repair} alt="#/" />
-                  <h3>Repairs & Renovation</h3>
-                </div>
+                <rev.Zoom delay={1000}>
+                  <div className="service">
+                    <img src={repair} alt="#/" />
+                    <h3>Repairs & Renovation</h3>
+                  </div>
+                </rev.Zoom>
               </hom.Col>
             </hom.Row>
           </hom.Container>
@@ -171,45 +187,53 @@ function Home() {
             }}
           ></div>
           <div className="whysection">
-          <hom.Container className="whyus">
-            <hom.Row>
-              <hom.Col lg={3} className="mx-auto mb-3">
-                <h4 className="whyhead">Reliable bookings</h4>
-                <div className="contentt">
-                  We provide on-site services from 7.am to 7 p.m.,7days a
-                  week.Simply book online or contact us through a phone call and
-                  get the service as soon as the next day
-                </div>
-              </hom.Col>
-              <hom.Col lg={3} className="mx-auto mb-3">
-                <h4 className="whyhead1">Security Guarantee</h4>
-                <div className="contentt">
-                  All our Tecnicians have undergone rigorous identity checks and
-                  personality interviews. We make sure that you do not have to
-                  worry about your security and that of your items.
-                </div>
-              </hom.Col>
-              <hom.Col lg={3} className="mx-auto mb-3">
-                <h4 className="whyhead">Proffesionalism</h4>
-                <div className="contentt">
-                  Our Technicals are highly experienced and specialised.This is
-                  complimented with our dedication to perfection.We use your
-                  reviews and feedback to continuously improve our service
-                </div>
-              </hom.Col>
-              <hom.Col lg={3} className="mx-auto mb-3">
-                <h4 className="whyhead1">Pocket friendly services</h4>
-                <div className="contentt">
-                  We have made it sure that our services are cost friendly to
-                  the clients as we only charge the price worth of the task. And
-                  with this you can be sure to have access to high quality
-                  services.
-                </div>
-              </hom.Col>
-            </hom.Row>
-          </hom.Container>
+            <hom.Container className="whyus">
+              <hom.Row>
+                <hom.Col lg={3} className="mx-auto mb-3">
+                <rev.Zoom delay={1000}>
+                  <h4 className="whyhead">Reliable bookings</h4>
+                  <div className="contentt">
+                    We provide on-site services from 7.am to 7 p.m.,7days a
+                    week.Simply book online or contact us through a phone call
+                    and get the service as soon as the next day
+                  </div>
+                  </rev.Zoom>
+                </hom.Col>
+                <hom.Col lg={3} className="mx-auto mb-3">
+                <rev.Zoom delay={1000}>
+                  <h4 className="whyhead1">Security Guarantee</h4>
+                  <div className="contentt">
+                    All our Tecnicians have undergone rigorous identity checks
+                    and personality interviews. We make sure that you do not
+                    have to worry about your security and that of your items.
+                  </div>
+                  </rev.Zoom>
+                </hom.Col>
+                <hom.Col lg={3} className="mx-auto mb-3">
+                <rev.Zoom delay={1000}>
+                  <h4 className="whyhead">Proffesionalism</h4>
+                  <div className="contentt">
+                    Our Technicals are highly experienced and specialised.This
+                    is complimented with our dedication to perfection.We use
+                    your reviews and feedback to continuously improve our
+                    service
+                  </div>
+                  </rev.Zoom>
+                </hom.Col>
+                <hom.Col lg={3} className="mx-auto mb-3">
+                <rev.Zoom delay={1000}>
+                  <h4 className="whyhead1">Pocket friendly services</h4>
+                  <div className="contentt">
+                    We have made it sure that our services are cost friendly to
+                    the clients as we only charge the price worth of the task.
+                    And with this you can be sure to have access to high quality
+                    services.
+                  </div>
+                  </rev.Zoom>
+                </hom.Col>
+              </hom.Row>
+            </hom.Container>
           </div>
-          
         </div>
       </div>
 
@@ -259,12 +283,14 @@ function Home() {
             <hom.Col className="mx-auto" lg={4}>
               <div className="footer-links">
                 <div className="footer-logo">
+                <rev.Zoom delay={1000}>
                   <hom.Image
                     src={log}
                     className="d-block w-100"
                     fluid
                     alt="logo"
                   />
+                  </rev.Zoom>
                 </div>
                 <ul>
                   <li>
