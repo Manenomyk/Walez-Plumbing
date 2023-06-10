@@ -10,6 +10,7 @@ import solar from "../../Assets/solar.webp";
 import unblock from "../../Assets/toi.png";
 import pro from "../../Assets/pro.jpg";
 import * as rev from "react-reveal";
+import { BsTelephoneFill } from "react-icons/bs";
 
 function Home() {
   return (
@@ -20,7 +21,7 @@ function Home() {
           <hom.Container>
             <div className="topsec">
               <div className="topcontact">Give us a call?</div>
-              <div className="topnumber">0714582808</div>
+              <div className="topnumber"> <BsTelephoneFill /> 0714582808</div>
             </div>
           </hom.Container>
         </div>
@@ -29,30 +30,31 @@ function Home() {
         <div id="nav">
           <nav className="navigation">
             <div className="logo">
-              {/* <img src='../Assets/log.png' alt="logo" className="img-fluid"/> */}
+              <rev.Zoom delay={1000}>
               <hom.Image
                 src={logo}
                 alt="logo"
                 className=" img d-block w-100"
                 fluid
               />
+              </rev.Zoom>
             </div>
             <ul>
               <li>
-                <a href="#learnmore">
+                <a href="#about">
                   {" "}
                   Learn more <i className="fas fa-caret-right"></i>
                 </a>
               </li>
               {/* <li><a href="/login ">Customer <i className="fas fa-caret-right"></i></a></li> */}
               <li>
-                <a href="/Technicians">
-                  Technician <i className="fas fa-caret-right"></i>
+                <a href="#service">
+                  Services <i className="fas fa-caret-right"></i>
                 </a>
               </li>
               <li>
-                <a href="#0794636596">
-                  <i className="fas fa-phone-alt"></i> 0714582808
+                <a href="#contact">
+                   Contact
                 </a>
               </li>
             </ul>
@@ -70,6 +72,7 @@ function Home() {
       </div>
 
       <div className="about">
+        <a id="about"></a>
         <hom.Container className="aboutcont">
           <hom.Row>
             <hom.Col lg={6} className="mx-auto mb-5">
@@ -106,6 +109,7 @@ function Home() {
       </div>
 
       <div className="serv">
+        <a id="service"></a>
         <div className="services" id="learnmore">
           <h2>Services we Offer</h2>
           <p>
@@ -210,6 +214,7 @@ function Home() {
       </div>
 
       <div className="contact">
+        <a id="contact"></a>
         <hom.Container className="mx-auto">
           <hom.Row>
             <hom.Col className="mx-auto" lg={4}>
