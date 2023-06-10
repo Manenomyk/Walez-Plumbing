@@ -109,6 +109,10 @@ body{
     width: 150px;
     display: flex;
     justify-content: center;
+    
+}
+.linky{
+    text-decoration: none;
 }
 .btnbody{
     display: flex;

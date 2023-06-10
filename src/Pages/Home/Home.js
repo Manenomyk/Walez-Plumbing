@@ -68,7 +68,7 @@ function Home() {
             <h2>In need of quality plumbing solutions?</h2>
             <p>Search no more, we've got you covered</p>
             <div className="btnbody">
-              <a href="#contact">
+              <a className="linky" href="#contact">
               <div className="buton">Contact us</div>
               </a>
             </div>
