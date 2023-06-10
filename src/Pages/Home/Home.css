@@ -202,6 +202,36 @@ body{
 
 
 
+.whyus{
+    height: 65vh; 
+    width: auto; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.6)), url(/src/Assets/tools.jpg);
+}
+.whyhead{
+    color:#22a8d8;
+    margin-bottom: 2rem;
+}
+.whyhead1{
+    color:#fca311;
+    margin-bottom: 2rem;
+}
+
+.contentt{
+    background-color: rgb(247, 247, 247, 0.7);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 3px 5px rgba(255, 255, 255, 0.3);
+}
+
+
+
+
 
 .contact{
     background-color: #969696;

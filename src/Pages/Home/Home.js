@@ -77,20 +77,21 @@ function Home() {
                 Quality and Expertise at your Dispposal
               </h3>
               <p>
-                We are a reknown blumbing company that prides itself <br/>
-                 in not only the quality we deliver but also in the expertises  <br />
-                 in service delivery.
-
+                We are a reknown blumbing company that prides itself <br />
+                in not only the quality we deliver but also in the expertises{" "}
+                <br />
+                in service delivery.
               </p>
               <p className="mb-4">
-                Our quest as a company is for satisfaction to our clients through<br/>
-                 efficiency and quality srvice delivery. With out team of well trained <br />
-                 experts, our clients can rest be assured of nothing but the best.
-
+                Our quest as a company is for satisfaction to our clients
+                through
+                <br />
+                efficiency and quality srvice delivery. With out team of well
+                trained <br />
+                experts, our clients can rest be assured of nothing but the
+                best.
               </p>
-              <div className="btn btn-primary">
-                Reach Out
-              </div>
+              <div className="btn btn-primary">Reach Out</div>
             </hom.Col>
             <hom.Col lg={5} className="mx-auto mb-5">
               <hom.Image
@@ -153,10 +154,59 @@ function Home() {
           </hom.Container>
           <div className="service-icons"></div>
         </div>
+      </div>
 
-        {/* <hom.Container className="courel">
+      <div className="serv">
+        <div className="services" id="learnmore">
+          <h2>Why Work with us</h2>
 
-        </hom.Container> */}
+          <div
+            style={{
+              paddingBottom: "30px",
+              position: "relative",
+            }}
+          ></div>
+          <div className="whysection">
+          <hom.Container className="whyus">
+            <hom.Row>
+              <hom.Col lg={3} className="mx-auto mb-3">
+                <h4 className="whyhead">Reliable bookings</h4>
+                <div className="contentt">
+                  We provide on-site services from 7.am to 7 p.m.,7days a
+                  week.Simply book online or contact us through a phone call and
+                  get the service as soon as the next day
+                </div>
+              </hom.Col>
+              <hom.Col lg={3} className="mx-auto mb-3">
+                <h4 className="whyhead1">Security Guarantee</h4>
+                <div className="contentt">
+                  All our Tecnicians have undergone rigorous identity checks and
+                  personality interviews. We make sure that you do not have to
+                  worry about your security and that of your items.
+                </div>
+              </hom.Col>
+              <hom.Col lg={3} className="mx-auto mb-3">
+                <h4 className="whyhead">Proffesionalism</h4>
+                <div className="contentt">
+                  Our Technicals are highly experienced and specialised.This is
+                  complimented with our dedication to perfection.We use your
+                  reviews and feedback to continuously improve our service
+                </div>
+              </hom.Col>
+              <hom.Col lg={3} className="mx-auto mb-3">
+                <h4 className="whyhead1">Pocket friendly services</h4>
+                <div className="contentt">
+                  We have made it sure that our services are cost friendly to
+                  the clients as we only charge the price worth of the task. And
+                  with this you can be sure to have access to high quality
+                  services.
+                </div>
+              </hom.Col>
+            </hom.Row>
+          </hom.Container>
+          </div>
+          
+        </div>
       </div>
 
       <div className="contact">
