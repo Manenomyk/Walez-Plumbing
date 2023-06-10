@@ -20,7 +20,7 @@ function Home() {
           <hom.Container>
             <div className="topsec">
               <div className="topcontact">Give us a call?</div>
-              <div className="topnumber">12345678</div>
+              <div className="topnumber">0714582808</div>
             </div>
           </hom.Container>
         </div>
@@ -52,7 +52,7 @@ function Home() {
               </li>
               <li>
                 <a href="#0794636596">
-                  <i className="fas fa-phone-alt"></i> 1234567890
+                  <i className="fas fa-phone-alt"></i> 0714582808
                 </a>
               </li>
             </ul>
