@@ -120,6 +120,22 @@ body{
 
 
 
+.about{
+    width: auto;
+    height: 70vh;
+    background-color: #f3f3f5;
+    padding-top: 20px;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+}
+.aboutcont{
+    /* background-color: white; */
+}
+
+
+
+
 
 
 .services h2{

@@ -8,6 +8,7 @@ import repair from "../../Assets/repair.webp";
 import sew from "../../Assets/sewage.jpg";
 import solar from "../../Assets/solar.webp";
 import unblock from "../../Assets/toi.png";
+import pro from '../../Assets/pro.jpg';
 import * as rev from "react-reveal";
 
 function Home() {
@@ -68,10 +69,30 @@ function Home() {
         </div>
       </div>
 
+      <div className="about">
+        <hom.Container className="aboutcont">
+          <hom.Row>
+            <hom.Col lg={6} className="mx-auto">
+              <h3 className="aout">Quality and Expertise at your Dispposal</h3>
+            </hom.Col>
+            <hom.Col lg={5} className="mx-auto">
+              <hom.Image
+              src={pro}
+              alt="image"
+              className="d-block w-100"
+              fluid
+              />
+            </hom.Col>
+          </hom.Row>
+        </hom.Container>
+      </div>
+
       <div className="serv">
         <div className="services" id="learnmore">
           <h2>Services we Offer</h2>
-          <p>We pride ourselves in delivering quality services with efficiency</p>
+          <p>
+            We pride ourselves in delivering quality services with efficiency
+          </p>
           <div
             style={{
               paddingBottom: "30px",
@@ -119,7 +140,6 @@ function Home() {
         {/* <hom.Container className="courel">
 
         </hom.Container> */}
-
       </div>
 
       <div className="contact">
