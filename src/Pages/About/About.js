@@ -71,6 +71,24 @@ function About() {
           </div>
         </rev.Zoom>
       </div>
+
+    <div className='aboutinfo'>
+      <abou.Container>
+        <abou.Row>
+          <abou.Col lg={5} className='mx-auto'>
+            <abou.Card>
+              <abou.Card.Header></abou.Card.Header>
+            </abou.Card>
+          </abou.Col>
+          <abou.Col lg={5} className='mx-auto'>
+            <h3>About Us</h3>
+            <div className='hr'></div>
+          </abou.Col>
+        </abou.Row>
+      </abou.Container>
+    </div>
+
+
       <div className="contact">
         <a id="contact"></a>
         <abou.Container className="mx-auto">

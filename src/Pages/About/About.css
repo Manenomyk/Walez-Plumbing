@@ -9,3 +9,13 @@
     align-items: center;
     background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(/src/Assets/abou.jpg);
 }
+.aboutinfo{
+    margin-top: 3rem;
+}
+.hr{
+    width: 120px;
+    height: 3px;
+    background-color: #F58020;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
