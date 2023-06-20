@@ -44,7 +44,7 @@ function Home() {
             </div>
             <ul>
               <li>
-                <a href="#about">
+                <a href="/about">
                   {" "}
                   Learn more <i className="fas fa-caret-right"></i>
                 </a>
