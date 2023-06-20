@@ -38,9 +38,9 @@ function About() {
             </div>
             <ul>
               <li>
-                <a href="/about">
+                <a href="/">
                   {" "}
-                  Learn more <i className="fas fa-caret-right"></i>
+                  Home <i className="fas fa-caret-right"></i>
                 </a>
               </li>
               {/* <li><a href="/login ">Customer <i className="fas fa-caret-right"></i></a></li> */}
@@ -56,6 +56,19 @@ function About() {
           </nav>
         </div>
       </header>
+      <div className="homeimage">
+        <rev.Zoom delay={1000}>
+          <div className="overlay">
+            <h2>In need of quality plumbing solutions?</h2>
+            <p>Search no more, we've got you covered</p>
+            <div className="btnbody">
+              <a className="linky" href="#contact">
+              <div className="buton">Contact us</div>
+              </a>
+            </div>
+          </div>
+        </rev.Zoom>
+      </div>
     </div>
   )
 }
