@@ -2,6 +2,9 @@ import React from 'react';
 import './About.css';
 import * as abou from 'react-bootstrap';
 import { BsTelephoneFill } from "react-icons/bs";
+import logo from "../../Assets/logo.jpg";
+import * as rev from "react-reveal";
+
 
 function About() {
   return (
@@ -20,6 +23,39 @@ function About() {
           </abou.Container>
         </div>
       </div>
+      <header>
+        <div id="nav">
+          <nav className="navigation">
+            <div className="logo">
+              <rev.Zoom delay={1000}>
+                <abou.Image
+                  src={logo}
+                  alt="logo"
+                  className=" img d-block w-100"
+                  fluid
+                />
+              </rev.Zoom>
+            </div>
+            <ul>
+              <li>
+                <a href="/about">
+                  {" "}
+                  Learn more <i className="fas fa-caret-right"></i>
+                </a>
+              </li>
+              {/* <li><a href="/login ">Customer <i className="fas fa-caret-right"></i></a></li> */}
+              <li>
+                <a href="#service">
+                  Services <i className="fas fa-caret-right"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#contact">Contact</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
     </div>
   )
 }
