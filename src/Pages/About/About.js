@@ -59,12 +59,12 @@ function About() {
       </header>
       <div className="homeimage1">
         <rev.Zoom delay={1000}>
-          <div className="overlay">
-            <h2>In need of quality plumbing solutions?</h2>
-            <p>Search no more, we've got you covered</p>
+        <div className="overlay">
+            <h2>Having any inquiries about us?</h2>
+            <p>Get to know us better</p>
             <div className="btnbody">
               <a className="linky" href="#contact">
-              <div className="buton">Contact us</div>
+              <div className="buton">Reach out</div>
               </a>
             </div>
           </div>
