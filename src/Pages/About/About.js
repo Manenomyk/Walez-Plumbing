@@ -3,6 +3,7 @@ import './About.css';
 import * as abou from 'react-bootstrap';
 import { BsTelephoneFill } from "react-icons/bs";
 import logo from "../../Assets/logo.jpg";
+import abo from "../../Assets/abou.jpg";
 import * as rev from "react-reveal";
 
 
@@ -56,7 +57,7 @@ function About() {
           </nav>
         </div>
       </header>
-      <div className="homeimage">
+      <div className="homeimage1">
         <rev.Zoom delay={1000}>
           <div className="overlay">
             <h2>In need of quality plumbing solutions?</h2>
