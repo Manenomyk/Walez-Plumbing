@@ -4,6 +4,7 @@ import * as abou from 'react-bootstrap';
 import { BsTelephoneFill } from "react-icons/bs";
 import logo from "../../Assets/logo.jpg";
 import abo from "../../Assets/abou.jpg";
+import owner from "../../Assets/wallace.jpeg";
 import * as rev from "react-reveal";
 import log from "../../Assets/log.png";
 
@@ -76,13 +77,10 @@ function About() {
       <abou.Container>
         <abou.Row>
           <abou.Col lg={5} className='mx-auto'>
-            <abou.Card>
-              <abou.Card.Header></abou.Card.Header>
-            </abou.Card>
+
           </abou.Col>
           <abou.Col lg={5} className='mx-auto'>
-            <h3>About Us</h3>
-            <div className='hr'></div>
+            
           </abou.Col>
         </abou.Row>
       </abou.Container>
@@ -98,8 +96,7 @@ function About() {
                 <h3>Contact us</h3>
                 <ul>
                   <li>
-                    <i className="fas fa-map-marker-alt"></i>GA House,2nd
-                    floor,Upperhill
+                    <i className="fas fa-map-marker-alt"></i>Along macharia Road King's Place
                   </li>
                   <li>
                     <i className="fas fa-phone-alt"></i>0714582808/0796921877

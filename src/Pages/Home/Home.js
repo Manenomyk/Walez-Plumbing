@@ -69,7 +69,7 @@ function Home() {
             <p>Search no more, we've got you covered</p>
             <div className="btnbody">
               <a className="linky" href="#contact">
-              <div className="buton">Contact us</div>
+                <div className="buton">Contact us</div>
               </a>
             </div>
           </div>
@@ -77,7 +77,6 @@ function Home() {
       </div>
 
       <div className="about">
-        
         <hom.Container className="aboutcont">
           <hom.Row>
             <hom.Col lg={6} className="mx-auto mb-5">
@@ -189,49 +188,49 @@ function Home() {
             }}
           ></div>
           <div className="whysection">
-          <a id="about"></a>
+            <a id="about"></a>
             <hom.Container className="whyus">
               <hom.Row>
                 <hom.Col lg={3} className="mx-auto mb-3">
-                <rev.Zoom delay={1000}>
-                  <h4 className="whyhead">Reliable bookings</h4>
-                  <div className="contentt">
-                    We provide on-site services from 7.am to 7 p.m.,7days a
-                    week.Simply book online or contact us through a phone call
-                    and get the service as soon as the next day
-                  </div>
+                  <rev.Zoom delay={1000}>
+                    <h4 className="whyhead">Reliable bookings</h4>
+                    <div className="contentt">
+                      We provide on-site services from 7.am to 7 p.m.,7days a
+                      week.Simply book online or contact us through a phone call
+                      and get the service as soon as the next day
+                    </div>
                   </rev.Zoom>
                 </hom.Col>
                 <hom.Col lg={3} className="mx-auto mb-3">
-                <rev.Zoom delay={1000}>
-                  <h4 className="whyhead1">Security Guarantee</h4>
-                  <div className="contentt">
-                    All our Tecnicians have undergone rigorous identity checks
-                    and personality interviews. We make sure that you do not
-                    have to worry about your security and that of your items.
-                  </div>
+                  <rev.Zoom delay={1000}>
+                    <h4 className="whyhead1">Security Guarantee</h4>
+                    <div className="contentt">
+                      All our Tecnicians have undergone rigorous identity checks
+                      and personality interviews. We make sure that you do not
+                      have to worry about your security and that of your items.
+                    </div>
                   </rev.Zoom>
                 </hom.Col>
                 <hom.Col lg={3} className="mx-auto mb-3">
-                <rev.Zoom delay={1000}>
-                  <h4 className="whyhead">Proffesionalism</h4>
-                  <div className="contentt">
-                    Our Technicals are highly experienced and specialised.This
-                    is complimented with our dedication to perfection.We use
-                    your reviews and feedback to continuously improve our
-                    service
-                  </div>
+                  <rev.Zoom delay={1000}>
+                    <h4 className="whyhead">Proffesionalism</h4>
+                    <div className="contentt">
+                      Our Technicals are highly experienced and specialised.This
+                      is complimented with our dedication to perfection.We use
+                      your reviews and feedback to continuously improve our
+                      service
+                    </div>
                   </rev.Zoom>
                 </hom.Col>
                 <hom.Col lg={3} className="mx-auto mb-3">
-                <rev.Zoom delay={1000}>
-                  <h4 className="whyhead1">Pocket friendly services</h4>
-                  <div className="contentt">
-                    We have made it sure that our services are cost friendly to
-                    the clients as we only charge the price worth of the task.
-                    And with this you can be sure to have access to high quality
-                    services.
-                  </div>
+                  <rev.Zoom delay={1000}>
+                    <h4 className="whyhead1">Pocket friendly services</h4>
+                    <div className="contentt">
+                      We have made it sure that our services are cost friendly
+                      to the clients as we only charge the price worth of the
+                      task. And with this you can be sure to have access to high
+                      quality services.
+                    </div>
                   </rev.Zoom>
                 </hom.Col>
               </hom.Row>
@@ -249,8 +248,8 @@ function Home() {
                 <h3>Contact us</h3>
                 <ul>
                   <li>
-                    <i className="fas fa-map-marker-alt"></i>GA House,2nd
-                    floor,Upperhill
+                    <i className="fas fa-map-marker-alt"></i>Along macharia Road
+                    King's Place
                   </li>
                   <li>
                     <i className="fas fa-phone-alt"></i>0714582808/0796921877
@@ -286,13 +285,13 @@ function Home() {
             <hom.Col className="mx-auto" lg={4}>
               <div className="footer-links">
                 <div className="footer-logo">
-                <rev.Zoom delay={1000}>
-                  <hom.Image
-                    src={log}
-                    className="d-block w-100"
-                    fluid
-                    alt="logo"
-                  />
+                  <rev.Zoom delay={1000}>
+                    <hom.Image
+                      src={log}
+                      className="d-block w-100"
+                      fluid
+                      alt="logo"
+                    />
                   </rev.Zoom>
                 </div>
                 <ul>
