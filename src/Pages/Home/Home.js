@@ -9,6 +9,10 @@ import sew from "../../Assets/sewage.jpg";
 import solar from "../../Assets/solar.webp";
 import unblock from "../../Assets/toi.png";
 import pro from "../../Assets/pro.jpg";
+import panel from "../../Assets/panel.jpeg";
+import pipe from "../../Assets/pipe.jpeg";
+import sola from "../../Assets/solar.jpeg";
+import tap from "../../Assets/tap.jpeg";
 import * as rev from "react-reveal";
 import { BsTelephoneFill } from "react-icons/bs";
 
@@ -178,55 +182,42 @@ function Home() {
       </div>
 
       <div>
-        
-          <div className="services">
-          <div >
+        <div className="services">
+          <div>
             <h2>Sample projects</h2>
-            <p>
-              Check out some of the projects we have handled
-            </p>
+            <p>Check out some of the projects we have handled</p>
           </div>
-          </div>
+        </div>
+
        
-        <hom.Carousel>
-          <hom.Carousel.Item>
-            <img
-              className="d-block w-100"
-              src="holder.js/800x400?text=First slide&bg=373940"
-              alt="First slide"
+        <hom.Container className="galacont">
+        <hom.Row className="mb-2">
+        <hom.Col lg={4} xs={10} className="mx-auto mb-3 ">
+            <hom.Image
+              src={panel}
+              className="d-block w-100 imagegala"
+              alt="picture1"
+              fluid
             />
-            <hom.Carousel.Caption>
-              <h3>First slide label</h3>
-              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-            </hom.Carousel.Caption>
-          </hom.Carousel.Item>
-          <hom.Carousel.Item>
-            <img
-              className="d-block w-100"
-              src="holder.js/800x400?text=Second slide&bg=282c34"
-              alt="Second slide"
+          </hom.Col>
+          <hom.Col lg={4} xs={10} className="mx-auto mb-3">
+            <hom.Image
+              src={pipe}
+              className="d-block w-100 imagegala"
+              alt="picture2"
+              fluid
             />
-
-            <hom.Carousel.Caption>
-              <h3>Second slide label</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </hom.Carousel.Caption>
-          </hom.Carousel.Item>
-          <hom.Carousel.Item>
-            <img
-              className="d-block w-100"
-              src="holder.js/800x400?text=Third slide&bg=20232a"
-              alt="Third slide"
+          </hom.Col>
+          <hom.Col lg={4} xs={10} className="mx-auto mb-3">
+            <hom.Image
+              src={tap}
+              className="d-block w-100 imagegala"
+              alt="picture3"
+              fluid
             />
-
-            <hom.Carousel.Caption>
-              <h3>Third slide label</h3>
-              <p>
-                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-              </p>
-            </hom.Carousel.Caption>
-          </hom.Carousel.Item>
-        </hom.Carousel>
+          </hom.Col>
+        </hom.Row>
+        </hom.Container>
       </div>
       <div className="serv">
         <div className="services" id="learnmore">
