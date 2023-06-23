@@ -106,7 +106,9 @@ function About() {
                     <p className="name">
                       <b>Walter Anyika Musoka</b>
                     </p>
+                    <a className="linky" href="#contact">
                     <div className="buton">Lets Talk</div>
+                    </a>
                   </div>
                 </abou.Col>
               </abou.Row>
