@@ -4,7 +4,7 @@ import * as abou from "react-bootstrap";
 import { BsTelephoneFill } from "react-icons/bs";
 import logo from "../../Assets/logo.jpg";
 import abo from "../../Assets/abou.jpg";
-import vid from "../../Assets/video.jpeg";
+import vid from "../../Assets/video/solarpanel.mp4";
 import owner from "../../Assets/wallace.jpeg";
 import * as rev from "react-reveal";
 import log from "../../Assets/log.png";
@@ -118,12 +118,18 @@ function About() {
       <div className="vidsection">
         <abou.Container>
           <abou.Row>
-            <abou.Col lg={5} className="mx-auto">
-              <p className="vid">Have a Quick preview</p>
+            <hr />
+            <abou.Col lg={3} className="mx-auto">
+              
+              <p className="vid"></p>
               <div>
                 <video 
                   src={vid}
-                  width="420px"
+                  controls
+                  // autoPlay
+                  muted
+                  width="500px"
+                  height="300px"
                 />
               </div>
               {/* <div className="ratio ratio-16x9">
