@@ -177,6 +177,57 @@ function Home() {
         </div>
       </div>
 
+      <div>
+        
+          <div className="services">
+          <div >
+            <h2>Sample projects</h2>
+            <p>
+              Check out some of the projects we have handled
+            </p>
+          </div>
+          </div>
+       
+        <hom.Carousel>
+          <hom.Carousel.Item>
+            <img
+              className="d-block w-100"
+              src="holder.js/800x400?text=First slide&bg=373940"
+              alt="First slide"
+            />
+            <hom.Carousel.Caption>
+              <h3>First slide label</h3>
+              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            </hom.Carousel.Caption>
+          </hom.Carousel.Item>
+          <hom.Carousel.Item>
+            <img
+              className="d-block w-100"
+              src="holder.js/800x400?text=Second slide&bg=282c34"
+              alt="Second slide"
+            />
+
+            <hom.Carousel.Caption>
+              <h3>Second slide label</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </hom.Carousel.Caption>
+          </hom.Carousel.Item>
+          <hom.Carousel.Item>
+            <img
+              className="d-block w-100"
+              src="holder.js/800x400?text=Third slide&bg=20232a"
+              alt="Third slide"
+            />
+
+            <hom.Carousel.Caption>
+              <h3>Third slide label</h3>
+              <p>
+                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+              </p>
+            </hom.Carousel.Caption>
+          </hom.Carousel.Item>
+        </hom.Carousel>
+      </div>
       <div className="serv">
         <div className="services" id="learnmore">
           <h2>Why Work with us</h2>
