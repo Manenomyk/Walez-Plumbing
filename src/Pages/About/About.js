@@ -4,6 +4,7 @@ import * as abou from "react-bootstrap";
 import { BsTelephoneFill } from "react-icons/bs";
 import logo from "../../Assets/logo.jpg";
 import abo from "../../Assets/abou.jpg";
+import vid from "../../Assets/video.jpeg";
 import owner from "../../Assets/wallace.jpeg";
 import * as rev from "react-reveal";
 import log from "../../Assets/log.png";
@@ -81,9 +82,9 @@ function About() {
                 <p className="us">About us</p>
                 <p>
                   Walez Plumbing and renovations company was started on 23rd of
-                  September 2021 and since then we pride in ourselves for
-                  quality and efficiency in service delivery. Our Catch for the
-                  industry is in customer satisfaction through Proffesionalism.
+                  September 2021 and since then we pride ourselves in quality
+                  and efficiency in service delivery. Our Catch for the industry
+                  is in customer satisfaction through Proffesionalism.
                 </p>
               </div>
             </abou.Col>
@@ -102,11 +103,36 @@ function About() {
                 <abou.Col lg={5} className="my-auto">
                   <div>
                     <p>Meet the CEO</p>
-                    <p className="name"><b>Walter Anyika Musoka</b></p>
+                    <p className="name">
+                      <b>Walter Anyika Musoka</b>
+                    </p>
                     <div className="buton">Lets Talk</div>
                   </div>
                 </abou.Col>
               </abou.Row>
+            </abou.Col>
+          </abou.Row>
+        </abou.Container>
+      </div>
+
+      <div className="vidsection">
+        <abou.Container>
+          <abou.Row>
+            <abou.Col lg={5} className="mx-auto">
+              <p className="vid">Have a Quick preview</p>
+              <div>
+                <video 
+                  src={vid}
+                  width="420px"
+                />
+              </div>
+              {/* <div className="ratio ratio-16x9">
+                <iframe
+                  src={vid}
+                  title="Walez Plumbing and Renovations"
+                  allowfullscreen
+                ></iframe>
+              </div> */}
             </abou.Col>
           </abou.Row>
         </abou.Container>
