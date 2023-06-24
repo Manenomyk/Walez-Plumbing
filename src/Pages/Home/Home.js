@@ -16,6 +16,7 @@ import tap from "../../Assets/tap.jpeg";
 import * as rev from "react-reveal";
 import { BsTelephoneFill } from "react-icons/bs";
 import { Helmet } from "react-helmet";
+import emailjs from 'emailjs-com';
 
 function Home() {
   const [successResponce, setSuccessResponce] = useState("");
@@ -25,8 +26,7 @@ function Home() {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs
-      .sendForm(
+    emailjs.sendForm(
         "service_qk3ecbi",
         "template_h2a286a",
         form.current,
@@ -410,14 +410,14 @@ function Home() {
                     <a href="#policy">Policy</a>
                   </li>
                   <li>
-                    <a href="#technicians">Technicians</a>
+                    <a href="/about">Technicians</a>
                   </li>
                 </ul>
               </div>
             </hom.Col>
 
             <hom.Col className="mx-auto" lg={4}>
-              <form>
+              <form ref={form} onSubmit={sendEmail}>
                 <rev.Fade right delay={1000}>
                   <div>
                     <input

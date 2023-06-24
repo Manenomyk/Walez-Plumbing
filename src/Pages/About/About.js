@@ -47,11 +47,11 @@ function About() {
                 </a>
               </li>
               {/* <li><a href="/login ">Customer <i className="fas fa-caret-right"></i></a></li> */}
-              <li>
+              {/* <li>
                 <a href="#service">
                   Services <i className="fas fa-caret-right"></i>
                 </a>
-              </li>
+              </li> */}
               <li>
                 <a href="#contact">Contact</a>
               </li>
