@@ -90,7 +90,7 @@ function About() {
             </abou.Col>
             <abou.Col lg={5} className="mx-auto">
               <abou.Row>
-                <abou.Col lg={5} className="mx-auto">
+                <abou.Col lg={5} sm={6} xs={5} className="mx-auto">
                   <div>
                     <abou.Image
                       className="walace"
