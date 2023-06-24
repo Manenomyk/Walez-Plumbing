@@ -15,10 +15,20 @@ import sola from "../../Assets/solar.jpeg";
 import tap from "../../Assets/tap.jpeg";
 import * as rev from "react-reveal";
 import { BsTelephoneFill } from "react-icons/bs";
+import { Helmet } from "react-helmet";
 
 function Home() {
   return (
     <div>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Walez Plumbing</title>
+        <link rel="canonical" href="http://mysite.com/example" />
+        <meta
+          name="description"
+          content="Awesome resort you need to checkout"
+        />
+      </Helmet>
       <div className="sect1">
         <div className="nam1"></div>
         <div className="nam2">
@@ -189,34 +199,33 @@ function Home() {
           </div>
         </div>
 
-       
         <hom.Container className="galacont">
-        <hom.Row className="mb-2">
-        <hom.Col lg={4} xs={10} className="mx-auto mb-3 ">
-            <hom.Image
-              src={panel}
-              className="d-block w-100 imagegala"
-              alt="picture1"
-              fluid
-            />
-          </hom.Col>
-          <hom.Col lg={4} xs={10} className="mx-auto mb-3">
-            <hom.Image
-              src={pipe}
-              className="d-block w-100 imagegala"
-              alt="picture2"
-              fluid
-            />
-          </hom.Col>
-          <hom.Col lg={4} xs={10} className="mx-auto mb-3">
-            <hom.Image
-              src={tap}
-              className="d-block w-100 imagegala"
-              alt="picture3"
-              fluid
-            />
-          </hom.Col>
-        </hom.Row>
+          <hom.Row className="mb-2">
+            <hom.Col lg={4} xs={10} className="mx-auto mb-3 ">
+              <hom.Image
+                src={panel}
+                className="d-block w-100 imagegala"
+                alt="picture1"
+                fluid
+              />
+            </hom.Col>
+            <hom.Col lg={4} xs={10} className="mx-auto mb-3">
+              <hom.Image
+                src={pipe}
+                className="d-block w-100 imagegala"
+                alt="picture2"
+                fluid
+              />
+            </hom.Col>
+            <hom.Col lg={4} xs={10} className="mx-auto mb-3">
+              <hom.Image
+                src={tap}
+                className="d-block w-100 imagegala"
+                alt="picture3"
+                fluid
+              />
+            </hom.Col>
+          </hom.Row>
         </hom.Container>
       </div>
       <div className="serv">
