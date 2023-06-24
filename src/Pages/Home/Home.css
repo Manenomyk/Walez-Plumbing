@@ -248,8 +248,11 @@ height: 50vh;
 }
 
 .whyus{
-    height: 65vh; 
-    width: auto; 
+    height: auto; 
+    width: auto;
+    padding-top: 5rem ;
+    padding-bottom: 3rem;
+    border-radius: 10px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

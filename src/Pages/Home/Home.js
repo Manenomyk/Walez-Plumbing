@@ -201,7 +201,7 @@ function Home() {
 
         <hom.Container className="galacont">
           <hom.Row className="mb-2">
-            <hom.Col lg={4} xs={10} className="mx-auto mb-3 ">
+            <hom.Col lg={4} xs={8} className="mx-auto mb-3 ">
               <hom.Image
                 src={panel}
                 className="d-block w-100 imagegala"
@@ -209,7 +209,7 @@ function Home() {
                 fluid
               />
             </hom.Col>
-            <hom.Col lg={4} xs={10} className="mx-auto mb-3">
+            <hom.Col lg={4} xs={8} className="mx-auto mb-3">
               <hom.Image
                 src={pipe}
                 className="d-block w-100 imagegala"
@@ -217,7 +217,7 @@ function Home() {
                 fluid
               />
             </hom.Col>
-            <hom.Col lg={4} xs={10} className="mx-auto mb-3">
+            <hom.Col lg={4} xs={8} className="mx-auto mb-3">
               <hom.Image
                 src={tap}
                 className="d-block w-100 imagegala"
@@ -242,7 +242,7 @@ function Home() {
             <a id="about"></a>
             <hom.Container className="whyus">
               <hom.Row>
-                <hom.Col lg={3} className="mx-auto mb-3">
+                <hom.Col lg={3} sm={10} xs={9} className="mx-auto mb-3">
                   <rev.Zoom delay={1000}>
                     <h4 className="whyhead">Reliable bookings</h4>
                     <div className="contentt">
@@ -252,7 +252,7 @@ function Home() {
                     </div>
                   </rev.Zoom>
                 </hom.Col>
-                <hom.Col lg={3} className="mx-auto mb-3">
+                <hom.Col lg={3} sm={10} xs={9} className="mx-auto mb-3">
                   <rev.Zoom delay={1000}>
                     <h4 className="whyhead1">Security Guarantee</h4>
                     <div className="contentt">
@@ -262,7 +262,7 @@ function Home() {
                     </div>
                   </rev.Zoom>
                 </hom.Col>
-                <hom.Col lg={3} className="mx-auto mb-3">
+                <hom.Col lg={3} sm={10} xs={9} className="mx-auto mb-3">
                   <rev.Zoom delay={1000}>
                     <h4 className="whyhead">Proffesionalism</h4>
                     <div className="contentt">
@@ -273,7 +273,7 @@ function Home() {
                     </div>
                   </rev.Zoom>
                 </hom.Col>
-                <hom.Col lg={3} className="mx-auto mb-3">
+                <hom.Col lg={3} sm={10} xs={9} className="mx-auto mb-3">
                   <rev.Zoom delay={1000}>
                     <h4 className="whyhead1">Pocket friendly services</h4>
                     <div className="contentt">
