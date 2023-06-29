@@ -45,41 +45,14 @@ function Home() {
     setSuccessResponce("Message sent successfully");
     setTimeout(() => {
       setSuccessResponce("");
-    }, 2000);
+    }, 4000);
   };
-  // const form = useRef();
-
-  // const sendEmail = (e) => {
-  //   e.preventDefault();
-
-  //   emailjs
-  //     .sendForm(
-  //       "service_qk3ecbi",
-  //       "template_h2a286a",
-  //       form.current,
-  //       "KFsuGcuTAtVQTcEYG"
-  //     )
-  //     .then(
-  //       (result) => {
-  //         console.log(result.text);
-  //       },
-  //       (error) => {
-  //         console.log(error.text);
-  //       }
-  //     );
-
-  //   e.target.reset();
-  //   setSuccessResponce("Message sent successfully");
-  //   setTimeout(() => {
-  //     setSuccessResponce("");
-  //   }, 2000);
-  // };
   return (
     <div>
       <div
         style={{
-          marginLeft: "45%",
-          marginTop: "15%",
+          marginLeft: "70%",
+          marginTop: "18%",
           position: "fixed",
           zIndex: "2",
         }}
@@ -89,14 +62,14 @@ function Home() {
             style={{
               color: "white",
               fontSize: "16px",
-              width: "17vw",
+              width: "120%",
               background: "#28a745",
               borderRadius: "15px",
               paddingTop: "15px",
               paddingBottom: "15px",
               paddingLeft: "6%",
               border: "1px solid lightgray",
-              opacity: "0.7",
+              opacity: "0.8",
               transition: "0.5",
             }}
           >
