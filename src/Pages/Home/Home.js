@@ -1,4 +1,5 @@
 import React, { useRef, useState } from "react";
+import emailjs from "@emailjs/browser";
 import "./Home.css";
 import * as hom from "react-bootstrap";
 import logo from "../../Assets/logo.jpg";
@@ -16,7 +17,6 @@ import tap from "../../Assets/tap.jpeg";
 import * as rev from "react-reveal";
 import { BsTelephoneFill } from "react-icons/bs";
 import { Helmet } from "react-helmet";
-import emailjs from 'emailjs-com';
 
 function Home() {
   const [successResponce, setSuccessResponce] = useState("");
@@ -26,11 +26,12 @@ function Home() {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm(
-        "service_qk3ecbi",
-        "template_h2a286a",
+    emailjs
+      .sendForm(
+        "service_eio6ssx",
+        "template_dtckgzl",
         form.current,
-        "KFsuGcuTAtVQTcEYG"
+        "GLJHLD4VjfTBI3MPl"
       )
       .then(
         (result) => {
@@ -40,13 +41,39 @@ function Home() {
           console.log(error.text);
         }
       );
-
     e.target.reset();
     setSuccessResponce("Message sent successfully");
     setTimeout(() => {
       setSuccessResponce("");
     }, 2000);
   };
+  // const form = useRef();
+
+  // const sendEmail = (e) => {
+  //   e.preventDefault();
+
+  //   emailjs
+  //     .sendForm(
+  //       "service_qk3ecbi",
+  //       "template_h2a286a",
+  //       form.current,
+  //       "KFsuGcuTAtVQTcEYG"
+  //     )
+  //     .then(
+  //       (result) => {
+  //         console.log(result.text);
+  //       },
+  //       (error) => {
+  //         console.log(error.text);
+  //       }
+  //     );
+
+  //   e.target.reset();
+  //   setSuccessResponce("Message sent successfully");
+  //   setTimeout(() => {
+  //     setSuccessResponce("");
+  //   }, 2000);
+  // };
   return (
     <div>
       <div
