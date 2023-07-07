@@ -396,5 +396,14 @@ hr{
         padding-top: 3rem;
         height: auto;
     }
+    .topcontact{
+        font-size: 16px;
+    }
+    .topnumber{
+        font-size: 13px;
+    }
+    #nav  nav ul li{
+        margin-left: 8px;
+    }
 
 }
