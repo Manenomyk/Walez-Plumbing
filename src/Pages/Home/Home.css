@@ -370,3 +370,31 @@ hr{
     width: auto;
     height: 60vh;
 }
+
+
+
+
+
+
+@media (max-width: 952px) {
+    
+    .about{
+        padding-top: 3rem;
+        height: auto;
+    }
+}
+@media (max-width: 858px) {
+    .about{
+        padding-top: 3rem;
+        height: auto;
+    }
+    
+}
+
+@media (max-width: 700px) {
+    .about{
+        padding-top: 3rem;
+        height: auto;
+    }
+
+}
