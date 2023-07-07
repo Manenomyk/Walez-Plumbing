@@ -8,10 +8,20 @@ import vid from "../../Assets/video/solarpanel.mp4";
 import owner from "../../Assets/wallace.jpeg";
 import * as rev from "react-reveal";
 import log from "../../Assets/log.png";
+import { Helmet } from "react-helmet";
 
 function About() {
   return (
     <div>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Walez Plumbing</title>
+        <link rel="canonical" href="http://mysite.com/example" />
+        <meta
+          name="description"
+          content="Awesome resort you need to checkout"
+        />
+      </Helmet>
       <div className="sect1">
         <div className="nam1"></div>
         <div className="nam2">
